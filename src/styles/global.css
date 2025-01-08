@@ -1,0 +1,14 @@
+@layer tailwind-base, radix, tailwind-utilities;
+
+@import "@radix-ui/themes/styles.css" layer(radix);
+@import "./custom.css" layer(radix);
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
